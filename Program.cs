@@ -8,6 +8,7 @@ namespace CS_scratchpad
 		  {
 				Console.WriteLine("This is a scratchpad C# .NET 5 app, mainly to play around with GitKraken.");
 				Console.WriteLine("This adds Message Two.");
+				Console.WriteLine("This should be the last-added message in all circumstances.");
 		  }
 	 }
 }
