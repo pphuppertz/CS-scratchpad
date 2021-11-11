@@ -10,6 +10,19 @@ namespace CS_scratchpad
 				Console.WriteLine("This adds Message Two.");
 				Console.WriteLine("This adds Message 3.");
 				Console.WriteLine("This should be the last-added message in all circumstances.");
+
+				TestMethod();
+		  }
+
+		  static void TestMethod()
+		  {
+				if (true)
+				{
+					 Console.WriteLine("This line should be printed");
+					 return;
+				}
+
+				Console.WriteLine("This line shouldn't be printed");
 		  }
 	 }
 }
